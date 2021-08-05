@@ -17,10 +17,10 @@ const Definitions = ({ LightMode, word, category, meanings }) => {
       )}
 
       {word === "" || category ==="" ? (
-        <pre className="subTitle">
+        <span className="subTitle">
            1. Select language
             <br/>
-           2. Start by typing a word in Search</pre>
+           2. Start by typing a word in Search</span>
       ) : (
         meanings.map((mean) =>
           mean.meanings.map((item) =>
