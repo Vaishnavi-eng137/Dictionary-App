@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
           <hr style = {{width:"90%",marginTop:20}}/>
-             <p className="name">Made by Vaishnavi &#128512; </p>
+             <p className="name">Created by Vaishnavi &#128512; </p>
               <div className = "iconContainer">
                   <a href = "https://www.instagram.com/delish_shell/" target = "_blank">
                       <i className = "fab fa-instagram-square fa-2x"></i>
